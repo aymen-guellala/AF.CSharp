@@ -11,7 +11,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
     {
         public static void Run()
         {
-            Rectangle Rect = new Rectangle(5,7,10);
+            Rectangle Rect = new Rectangle(5, 7, 10);
             int area;
             //Rect.setWidth(5);
             //Rect.setHeight(7);
@@ -21,5 +21,5 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             Console.WriteLine("Total area: {0}", Rect.GetArea());
             Console.WriteLine("Total paint cost: ${0}", Rect.GetCoast());
         }
-    }    
+    }
 }

@@ -22,7 +22,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             while (k < 10)
             {
                 Console.WriteLine("Value of k: {0}", k);
-
                 k++;
             }
 
@@ -30,7 +29,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             do
             {
                 Console.WriteLine("Value of j: {0}", j);
-
                 j++;
 
             } while (j < 10);

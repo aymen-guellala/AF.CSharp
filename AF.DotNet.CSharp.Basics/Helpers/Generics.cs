@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace AF.DotNet.CSharp.Basics.Helpers
 {
-
     class GenericHelper
     {
         public delegate T add<T>(T param1, T param2);

@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace AF.DotNet.CSharp.Basics.Classes
 {
-
     class Line
     {
-        private double length;   // Length of a line
-        public Line()  // constructor
+        // Property : Length of a line
+        private double length;
+
+        // constructor
+        public Line()
         {
             Console.WriteLine("Object is being created");
         }

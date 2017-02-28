@@ -13,6 +13,9 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             FirstClass myFirstClass = new FirstClass();
             myFirstClass.MyMethod(8, "Simple text dude ...");
 
+            Person p = new Person("Ali", "McFerry", 27);
+            Console.WriteLine(p.ToString());
+
             Line l1 = new Line();
 
             var student1 = new Student() { StudentID = 1, StudentName = "John" };
@@ -49,5 +52,5 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             Console.WriteLine("Rectangle and triangle have the some area : {0}", (r == t));
         }
     }
-    
+
 }

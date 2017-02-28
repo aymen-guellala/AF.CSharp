@@ -17,7 +17,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
                 Console.WriteLine("It's a student");
             else
                 Console.WriteLine("It's not a student");
-            
+
             int? x = null;
 
             // Set y to the value of x if x is NOT null; otherwise,
@@ -40,6 +40,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
                     Console.WriteLine("Unknown value");
                     break;
             }
-        }        
+        }
     }
 }

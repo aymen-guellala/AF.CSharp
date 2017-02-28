@@ -16,10 +16,11 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             Thread childThread = new Thread(childref);
             childThread.Start();
         }
+
         public static void CallToLauncherThread()
         {
             Thread.Sleep(1000);
-            
+
 
             Console.WriteLine("{0} - Starting a first thread with 2 sleep periods", Thread.CurrentThread.ManagedThreadId);
             Thread cThread1 = new Thread(() => CallToChildThread(2));
@@ -37,7 +38,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
 
         public static void CallToChildThread(int sleep)
         {
-            
             try
             {
                 Console.WriteLine("{0} - Child thread starts", Thread.CurrentThread.ManagedThreadId);
@@ -61,6 +61,5 @@ namespace AF.DotNet.CSharp.Basics.Helpers
                 Console.WriteLine("{0} - Thread finally block", Thread.CurrentThread.ManagedThreadId);
             }
         }
-        
     }
 }

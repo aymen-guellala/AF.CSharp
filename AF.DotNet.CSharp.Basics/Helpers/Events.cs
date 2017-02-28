@@ -52,7 +52,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
                     beforePrintEvent("PrintMoney");
 
                 Console.WriteLine("Money: {0:C}", money);
-            }            
+            }
         }
 
         class Number
@@ -65,7 +65,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
                 _value = val;
 
                 _printHelper = new PrintHelper();
-                
+
                 //subscribe to beforePrintEvent event
                 _printHelper.beforePrintEvent += printHelper_beforePrintEvent;
             }
@@ -73,9 +73,9 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             //beforePrintevent handler
             void printHelper_beforePrintEvent(string message)
             {
-                Console.WriteLine("BeforPrintEventHandler <{0}>: PrintHelper is going to print a value",message);
+                Console.WriteLine("BeforPrintEventHandler <{0}>: PrintHelper is going to print a value", message);
             }
-                        
+
             public void PrintMoney()
             {
                 _printHelper.PrintMoney(_value);

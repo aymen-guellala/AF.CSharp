@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace AF.DotNet.CSharp.Basics.Classes
 {
-
     public class FirstClass
     {
         public string myField = string.Empty;
@@ -27,7 +26,6 @@ namespace AF.DotNet.CSharp.Basics.Classes
         {
             get { return _property1; }
             set { _property1 = value; }
-
         }
 
         private int _property2;
@@ -40,7 +38,6 @@ namespace AF.DotNet.CSharp.Basics.Classes
 
             set
             {
-
                 if (value > 100)
                     _property2 = 100;
                 else
@@ -48,5 +45,4 @@ namespace AF.DotNet.CSharp.Basics.Classes
             }
         }
     }
-
 }

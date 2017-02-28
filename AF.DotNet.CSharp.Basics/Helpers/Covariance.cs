@@ -14,7 +14,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
         {
             covarDel del1 = Method1;
             Small sm = del1(new Big());
-
         }
 
         static Big Method1(Big bg)

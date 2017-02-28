@@ -12,7 +12,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
         {
             return x + y;
         }
-        
+
         public static void Run()
         {
             Func<int, int, int> add = Sum;

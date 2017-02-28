@@ -22,7 +22,7 @@ namespace AF.DotNet.CSharp.Basics.Classes
 
         public static bool operator ==(Shape b, Shape c)
         {
-            return b.GetArea()==c.GetArea();
+            return b.GetArea() == c.GetArea();
         }
         public static bool operator !=(Shape b, Shape c)
         {
@@ -35,7 +35,6 @@ namespace AF.DotNet.CSharp.Basics.Classes
 
         public Rectangle(int a = 0, int b = 0) : base(a, b)
         {
-
         }
         public Rectangle(int a = 0, int b = 0, int c = 0) : base(a, b)
         {

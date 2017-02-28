@@ -21,10 +21,8 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             };
 
             print(100);
-            
+
             PrintHelperMethod(delegate (int val) { Console.WriteLine("Anonymous method: {0}", val); }, 100);
-
-
 
             // Anonymous Type
             var myAnonymousType = new
@@ -44,14 +42,12 @@ namespace AF.DotNet.CSharp.Basics.Helpers
 
             // Linq Select returns anonymous type
             var PersonNames = from s in PersonList
-                               select new
-                               {
-                                   PersonID = s.FirstName,
-                                   PersonName = s.LastName
-                               };
+                              select new
+                              {
+                                  PersonID = s.FirstName,
+                                  PersonName = s.LastName
+                              };
         }
-
-
 
         public static void PrintHelperMethod(Print printDel, int val)
         {

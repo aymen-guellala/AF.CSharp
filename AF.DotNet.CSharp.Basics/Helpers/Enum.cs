@@ -22,8 +22,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             Console.WriteLine("Friday:");
             Console.WriteLine(WeekDays.Friday);
             Console.WriteLine((int)WeekDays.Friday);
-
-
+            
             Console.WriteLine("Third day of week is: {0}", Enum.GetName(typeof(WeekDays), 2));
 
             Console.WriteLine("WeekDays constant names:");

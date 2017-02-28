@@ -56,7 +56,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
     }
 

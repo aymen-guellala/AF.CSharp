@@ -54,7 +54,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             Console.WriteLine("[Reference Type] value before change: {0}", person.FirstName);
             ChangeReferenceType(person);
             Console.WriteLine("[Reference Type] value after change: {0}", person.FirstName);
-
         }
 
         public static void ChangeValueType(int i)

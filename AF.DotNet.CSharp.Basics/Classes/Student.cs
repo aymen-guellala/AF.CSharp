@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace AF.DotNet.CSharp.Basics.Classes
 {
-
     public class Student
     {
         public int StudentID { get; set; }
@@ -14,5 +13,4 @@ namespace AF.DotNet.CSharp.Basics.Classes
         public int Age { get; set; }
         public string Address { get; set; }
     }
-
 }

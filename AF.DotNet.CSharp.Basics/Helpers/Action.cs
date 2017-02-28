@@ -20,7 +20,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             };
 
             printActionDel_3(10);
-            
+
             //  Lambda expression with Action delegate
             Action<int> printActionDel_4 = i => Console.WriteLine("Console Write from Lambda expression with Action delegate: {0}", i);
             printActionDel_4(10);

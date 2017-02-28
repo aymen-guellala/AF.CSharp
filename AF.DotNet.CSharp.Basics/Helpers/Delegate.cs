@@ -24,7 +24,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
 
             printDel(10000);
             printDel.Invoke(200);
-            
+
             Console.WriteLine("----------");
 
             // Multicast delegate
@@ -33,7 +33,7 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             printDel += PrintMoney;
 
             printDel(100000);
-            
+
             Console.WriteLine("----------");
 
             // Delegate Parameter
@@ -41,7 +41,6 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             PrintHelper(PrintMoney, 10000);
         }
         
-
         public static void PrintNumber(int num)
         {
             Console.WriteLine("Number: {0,-12:N0}", num);
