@@ -40,6 +40,11 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             int[][] intJaggedArray = new int[2][];
             intJaggedArray[0] = new int[3] { 1, 2, 3 };
             intJaggedArray[1] = new int[2] { 4, 5 };
+
+            bool[] boolArray = Enumerable.Repeat(true, 13).ToArray(); // creates bool array of size 13 with default value “true”
+            int[] integerArray = Enumerable.Repeat(12, 35).ToArray(); // creates int array of size 35 with default value “12”
+            string[] strArray = Enumerable.Repeat("Welcome", 6).ToArray();// creates string array of size 6 with default value “Welcome”
+
         }
     }
 }
