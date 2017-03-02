@@ -21,6 +21,8 @@ namespace AF.DotNet.CSharp.Basics.Classes
 
         public int MyAutoImplementedProperty { get; set; }
 
+        public string PropertyWithDefaultValue { get; set; } = "Default Name";
+
         private int _property1;
         public int Property1
         {

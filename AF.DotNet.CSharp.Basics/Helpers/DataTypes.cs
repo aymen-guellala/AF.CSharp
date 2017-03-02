@@ -18,6 +18,8 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             char x = 'x';        /* the variable x has the value 'x'. */
             int k, l = 0;
 
+            Tuple<string, bool> t = new Tuple<string, bool>("Alex",true);
+
             int @int = (int)1 / 3;
             // @int = 0
             Console.WriteLine("[int]1/3 = {0}", @int);

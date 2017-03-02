@@ -27,6 +27,11 @@ namespace AF.DotNet.CSharp.Basics.Helpers
             // Ternary operator
             int z = x == null ? 5 : 10;
 
+            StringDataStore store = new StringDataStore();
+
+            int? length = p?.Age; // null if customers is null   
+            string str = store?[0];  // null if customers is null  
+            // int? count = customers?[0]?.Orders?.Count();  // null if customers, the first customer, or Orders is null 
 
             switch (z)
             {

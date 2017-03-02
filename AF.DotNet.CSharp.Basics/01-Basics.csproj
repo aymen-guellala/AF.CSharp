@@ -72,6 +72,8 @@
     <Compile Include="Helpers\Predicate.cs" />
     <Compile Include="Helpers\Struct.cs" />
     <Compile Include="Helpers\Thread.cs" />
+    <Compile Include="Helpers\WeakReferences.cs" />
+    <Compile Include="Helpers\yield.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
